@@ -1,0 +1,1 @@
+run only in Android on UAT env - pytest --platform ios --env uat -n 0

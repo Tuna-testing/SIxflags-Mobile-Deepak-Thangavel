@@ -1,0 +1,447 @@
+2026-09-25 15:17:36:155 [Appium] Welcome to Appium v3.2.0 (REV b2cfc03346d482f79886de108fee5dc49a6efc10)
+2026-09-25 15:17:36:156 [Appium] Non-default server args:
+2026-09-25 15:17:36:157 [Appium] { port: 55303, relaxedSecurityEnabled: true }
+2026-09-25 15:17:36:157 [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2026-09-25 15:17:36:157 [Appium] The autodetected Appium home path: /Users/thangaveltuna/.appium
+2026-09-25 15:17:36:157 [Appium] Attempting to load driver uiautomator2...
+2026-09-25 15:17:36:157 [Appium] Attempting to load driver xcuitest...
+2026-09-25 15:17:36:158 [Appium] Requiring driver at /Users/thangaveltuna/.appium/node_modules/appium-uiautomator2-driver/build/lib/index.js
+2026-09-25 15:17:36:380 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.223s
+2026-09-25 15:17:36:380 [Appium] Requiring driver at /Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/build/lib/index.js
+2026-09-25 15:17:36:540 [Appium] XCUITestDriver has been successfully loaded in 0.382s
+2026-09-25 15:17:36:551 [Appium] Appium REST http interface listener started on http://0.0.0.0:55303
+2026-09-25 15:17:36:551 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:55303/ (only accessible from the same host)
+	http://192.168.1.3:55303/
+	http://169.254.219.224:55303/
+2026-09-25 15:17:36:551 [Appium] Available drivers:
+2026-09-25 15:17:36:551 [Appium]   - uiautomator2@7.0.0 (automationName 'UiAutomator2')
+2026-09-25 15:17:36:552 [Appium]   - xcuitest@10.24.2 (automationName 'XCUITest')
+2026-09-25 15:17:36:552 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2026-09-25 15:17:36:914 [HTTP] --> HEAD /status 
+2026-09-25 15:17:36:916 [AppiumDriver@0b13] Calling AppiumDriver.getStatus() with args: []
+2026-09-25 15:17:36:917 [AppiumDriver@0b13] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.2.0","git-sha":"b2cfc03346d482f79886de108fee5dc49a6efc10","built":"2026-07-27 10:02:44 +0000"}}
+2026-09-25 15:17:36:920 [HTTP] <-- HEAD /status 200 5 ms - 199 
+2026-09-25 15:17:36:937 [HTTP] --> GET /status 
+2026-09-25 15:17:36:937 [AppiumDriver@0b13] Calling AppiumDriver.getStatus() with args: []
+2026-09-25 15:17:36:937 [AppiumDriver@0b13] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.2.0","git-sha":"b2cfc03346d482f79886de108fee5dc49a6efc10","built":"2026-07-27 10:02:44 +0000"}}
+2026-09-25 15:17:36:938 [HTTP] <-- GET /status 200 1 ms - 199 
+2026-09-25 15:17:36:939 [HTTP] Request idempotency key: afd10970-8f87-4835-bd3d-ec4c5badef20
+2026-09-25 15:17:36:943 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","platformName":"iOS","appium:deviceName":"iPhone","appium:udid":"00008110-000854660121401E","appium:bundleId":"com.sixflags.ios","appium:wdaLocalPort":8100,"appium:autoAcceptAlerts":true,"appium:noReset":true,"appium:xcodeOrgId":"24295WXK2R","appium:xcodeSigningId":"iPhone Developer","appium:maxTypingFrequency":15}}}
+2026-09-25 15:17:36:943 [AppiumDriver@0b13] Calling AppiumDriver.createSession() with args: [{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","platformName":"iOS","appium:deviceName":"iPhone","appium:udid":"00008110-000854660121401E","appium:bundleId":"com.sixflags.ios","appium:wdaLocalPort":8100,"appium:autoAcceptAlerts":true,"appium:noReset":true,"appium:xcodeOrgId":"24295WXK2R","appium:xcodeSigningId":"iPhone Developer","appium:maxTypingFrequency":15}},{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","platformName":"iOS","appium:deviceName":"iPhone","appium:udid":"00008110-000854660121401E","appium:bundleId":"com.sixflags.ios","appium:wdaLocalPort":8100,"appium:autoAcceptAlerts":true,"appium:noReset":true,"appium:xcodeOrgId":"24295WXK2R","appium:xcodeSigningId":"iPhone Developer","appium:maxTypingFrequency":15}},{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","platformName":"iOS","appium:deviceName":"iPhone","appium:udid":"00008110-000854660121401E","appium:bundleId":"com.sixflags.ios","appium:wdaLocalPort":8100,"appium:autoAcceptAle...
+2026-09-25 15:17:36:944 [AppiumDriver@0b13] Event 'newSessionRequested' logged at 1790349456944 (20:47:36 GMT+0530 (India Standard Time))
+2026-09-25 15:17:36:945 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+2026-09-25 15:17:36:945 [Appium] The 'xcuitest' driver was installed and matched caps.
+2026-09-25 15:17:36:945 [Appium] Will require it at /Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver
+2026-09-25 15:17:36:945 [Appium] Requiring driver at /Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/build/lib/index.js
+2026-09-25 15:17:36:946 [AppiumDriver@0b13] Appium v3.2.0 creating new XCUITestDriver (v10.24.2) session
+2026-09-25 15:17:36:946 [AppiumDriver@0b13] Checking BaseDriver versions for Appium and XCUITestDriver
+2026-09-25 15:17:36:946 [AppiumDriver@0b13] Appium's BaseDriver version is 10.2.0
+2026-09-25 15:17:36:946 [AppiumDriver@0b13] XCUITestDriver's BaseDriver version is 9.18.0
+2026-09-25 15:17:36:947 [AppiumDriver@0b13] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2026-09-25 15:17:36:948 [XCUITestDriver@8148] 
+2026-09-25 15:17:36:948 [XCUITestDriver@8148] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "iOS",
+    "appium:automationName": "XCUITest",
+    "appium:deviceName": "iPhone",
+    "appium:udid": "00008110-000854660121401E",
+    "appium:bundleId": "com.sixflags.ios",
+    "appium:wdaLocalPort": 8100,
+    "appium:autoAcceptAlerts": true,
+    "appium:noReset": true,
+    "appium:xcodeOrgId": "24295WXK2R",
+    "appium:xcodeSigningId": "iPhone Developer",
+    "appium:maxTypingFrequency": 15
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-09-25 15:17:36:952 [XCUITestDriver@8148] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2026-09-25 15:17:36:952 [d6624184][XCUITestDriver@8148] Session created with session id: d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:36:957 [d6624184][XCUITest] Current user: 'thangaveltuna'
+2026-09-25 15:17:36:962 [d6624184][XCUITestDriver@8148] Available real devices: 00008110-000854660121401E
+2026-09-25 15:17:36:962 [d6624184][XCUITestDriver@8148] Creating iDevice object with udid '00008110-000854660121401E'
+2026-09-25 15:17:36:962 [d6624184][XCUITestDriver@8148] Determining device to run tests on: udid: '00008110-000854660121401E', real device: true
+2026-09-25 15:17:37:017 [d6624184][XCUITestDriver@8148] No platformVersion specified. Using device version: '26.6.1'
+2026-09-25 15:17:37:017 [d6624184][XCUITestDriver@8148] Normalized platformVersion capability value '26.6.1' to '26.6'
+2026-09-25 15:17:37:030 [d6624184][XCUITestDriver@8148] Event 'xcodeDetailsRetrieved' logged at 1790349457030 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:030 [d6624184][XCUITestDriver@8148] Event 'appConfigured' logged at 1790349457030 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:030 [d6624184][XCUITestDriver@8148] Event 'resetStarted' logged at 1790349457030 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:030 [d6624184][XCUITestDriver@8148] Reset: fullReset not set. Leaving as is
+2026-09-25 15:17:37:030 [d6624184][XCUITestDriver@8148] Event 'resetComplete' logged at 1790349457030 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:031 [d6624184][XCUITestDriver@8148] Using WDA path: '/Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+2026-09-25 15:17:37:031 [d6624184][XCUITestDriver@8148] Using WDA agent: '/Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2026-09-25 15:17:37:034 [d6624184][XCUITest] Failed to create crash reports client via RemoteXPC: Failed to import appium-ios-remotexpc module. This module is required for iOS 18 and above device operations. Original error: Cannot find package 'appium-ios-remotexpc' imported from /Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/build/lib/device/remotexpc-utils.js. Falling back to py-ios-device (pyidevice)
+2026-09-25 15:17:37:037 [d6624184][XCUITestDriver@8148] The crashreportsclient tool is not present in PATH. Skipping crash logs collection for real devices.
+2026-09-25 15:17:37:149 [d6624184][XCUITestDriver@8148] Event 'logCaptureStarted' logged at 1790349457149 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:149 [d6624184][XCUITestDriver@8148] Setting up real device
+2026-09-25 15:17:37:150 [d6624184][XCUITest] Failed to create InstallationProxy client via RemoteXPC: Failed to import appium-ios-remotexpc module. This module is required for iOS 18 and above device operations. Original error: Cannot find package 'appium-ios-remotexpc' imported from /Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/build/lib/device/remotexpc-utils.js, falling back to appium-ios-device
+2026-09-25 15:17:37:364 [d6624184][XCUITestDriver@8148] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2026-09-25 15:17:37:364 [d6624184][DevCon Factory] Requesting connection for device 00008110-000854660121401E on local port 8100, device port 8100
+2026-09-25 15:17:37:364 [d6624184][DevCon Factory] Cached connections count: 0
+2026-09-25 15:17:37:365 [d6624184][DevCon Factory] Successfully requested the connection for 00008110-000854660121401E:8100
+2026-09-25 15:17:37:366 [d6624184][XCUITestDriver@8148] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2026-09-25 15:17:37:366 [d6624184][WD Proxy] NoSessionProxy options: {"server":"127.0.0.1","port":8100,"base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+2026-09-25 15:17:37:367 [d6624184][WD Proxy] Matched '/status' to command name 'getStatus'
+2026-09-25 15:17:37:367 [d6624184][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2026-09-25 15:17:37:377 [d6624184][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1772554701451","version":"11.1.6","time":"Sep 16 2026 02:27:54","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"26.2","version":"26.6.1"},"device":"iphone","ios":{"ip":"192.168.1.8"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"2D7E272A-1652-4E98-A028-EEAE8C28C25C"}
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Upgrade timestamp of the currently bundled WDA: 1772554701451
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Upgrade timestamp of the WDA on the device: 1772554701451
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Trying to start WebDriverAgent 1 times with 10000ms interval
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Event 'wdaStartAttempted' logged at 1790349457378 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] JWProxy options: {"scheme":"http","server":"127.0.0.1","port":8100,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+2026-09-25 15:17:37:378 [d6624184][XCUITestDriver@8148] NoSessionProxy options: {"scheme":"http","server":"127.0.0.1","port":8100,"base":"","timeout":240000,"keepAlive":true,"reqBasePath":"","sessionId":null}
+2026-09-25 15:17:37:378 [d6624184][WD Proxy] NoSessionProxy options: {"server":"127.0.0.1","port":8100,"base":"","timeout":3000,"scheme":"http","reqBasePath":"","sessionId":null}
+2026-09-25 15:17:37:379 [d6624184][WD Proxy] Matched '/status' to command name 'getStatus'
+2026-09-25 15:17:37:379 [d6624184][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2026-09-25 15:17:37:384 [d6624184][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1772554701451","version":"11.1.6","time":"Sep 16 2026 02:27:54","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"26.2","version":"26.6.1"},"device":"iphone","ios":{"ip":"192.168.1.8"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"2D7E272A-1652-4E98-A028-EEAE8C28C25C"}
+2026-09-25 15:17:37:385 [d6624184][XCUITestDriver@8148] Event 'wdaSessionAttempted' logged at 1790349457385 (20:47:37 GMT+0530 (India Standard Time))
+2026-09-25 15:17:37:385 [d6624184][XCUITestDriver@8148] Sending createSession command to WDA
+2026-09-25 15:17:37:385 [d6624184][XCUITestDriver@8148] Matched '/session' to command name 'createSession'
+2026-09-25 15:17:37:385 [d6624184][XCUITestDriver@8148] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.sixflags.ios","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":15,"shouldUseSingletonTestManager":true,"shouldTerminateApp":false,"forceAppLaunch":false,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true,"defaultAlertAction":"accept"}],"alwaysMatch":{}}}
+2026-09-25 15:17:37:642 [d6624184][XCUITestDriver@8148] Parsed BUILD_DIR configuration value: '/Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/build'
+2026-09-25 15:17:37:642 [d6624184][XCUITestDriver@8148] Got derived data root: '/Users/thangaveltuna/.appium/node_modules/appium-xcuitest-driver/node_modules'
+2026-09-25 15:17:39:029 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4","capabilities":{"sdkVersion":"26.6.1","device":"iphone"}},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:39:029 [d6624184][XCUITestDriver@8148] Determined the downstream protocol as 'W3C'
+2026-09-25 15:17:39:030 [d6624184][XCUITestDriver@8148] WDA session startup took 1645ms
+2026-09-25 15:17:39:030 [d6624184][XCUITestDriver@8148] Event 'wdaSessionStarted' logged at 1790349459030 (20:47:39 GMT+0530 (India Standard Time))
+2026-09-25 15:17:39:030 [d6624184][XCUITestDriver@8148] WebDriverAgent version: '11.1.6'
+2026-09-25 15:17:39:030 [d6624184][XCUITestDriver@8148] Event 'wdaStarted' logged at 1790349459030 (20:47:39 GMT+0530 (India Standard Time))
+2026-09-25 15:17:39:032 [d6624184][BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2026-09-25 15:17:39:032 [d6624184][BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2026-09-25 15:17:39:032 [d6624184][XCUITestDriver@8148] Forwarding MJPEG server port 9100 to local port 9100
+2026-09-25 15:17:39:032 [d6624184][DevCon Factory] Requesting connection for device 00008110-000854660121401E on local port 9100, device port 9100
+2026-09-25 15:17:39:033 [d6624184][DevCon Factory] Cached connections count: 1
+2026-09-25 15:17:39:035 [d6624184][DevCon Factory] Successfully requested the connection for 00008110-000854660121401E:9100
+2026-09-25 15:17:39:035 [d6624184][AppiumDriver@0b13] New XCUITestDriver session created successfully, session d6624184-f6ac-4b01-b409-10c30a61a2b4 added to master session list
+2026-09-25 15:17:39:036 [d6624184][AppiumDriver@0b13] Event 'newSessionStarted' logged at 1790349459036 (20:47:39 GMT+0530 (India Standard Time))
+2026-09-25 15:17:39:036 [d6624184][XCUITestDriver@8148] Cached the protocol value 'W3C' for the new session d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:39:036 [d6624184][XCUITestDriver@8148] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","automationName":"XCUITest","deviceName":"iPhone","udid":"00008110-000854660121401E","bundleId":"com.sixflags.ios","wdaLocalPort":8100,"autoAcceptAlerts":true,"noReset":true,"xcodeOrgId":"24295WXK2R","xcodeSigningId":"iPhone Developer","maxTypingFrequency":15,"platformVersion":"26.6"}}
+2026-09-25 15:17:39:037 [d6624184][HTTP] <-- POST /session 200 2093 ms - 581 
+2026-09-25 15:17:39:039 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/timeouts {"implicit":30000}
+2026-09-25 15:17:39:040 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:39:040 [d6624184][XCUITestDriver@8148] Executing command 'timeouts'
+2026-09-25 15:17:39:041 [d6624184][XCUITestDriver@8148] W3C timeout argument: {"implicit":30000}}
+2026-09-25 15:17:39:041 [d6624184][XCUITestDriver@8148] Set implicit wait to 30000ms
+2026-09-25 15:17:39:042 [d6624184][XCUITestDriver@8148] Responding to client with driver.timeouts() result: null
+2026-09-25 15:17:39:042 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/timeouts 200 3 ms - 14 
+2026-09-25 15:17:39:044 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/window/rect 
+2026-09-25 15:17:39:044 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.getWindowRect() with args: ["d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:39:044 [d6624184][XCUITestDriver@8148] Executing command 'getWindowRect'
+2026-09-25 15:17:39:048 [d6624184][XCUITestDriver@8148] Matched '/window/rect' to command name 'getWindowRect'
+2026-09-25 15:17:39:048 [d6624184][XCUITestDriver@8148] Proxying [GET /window/rect] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/window/rect] with no body
+2026-09-25 15:17:39:108 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"y":0,"x":0,"width":390,"height":844},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:39:108 [d6624184][XCUITestDriver@8148] Responding to client with driver.getWindowRect() result: {"y":0,"x":0,"width":390,"height":844}
+2026-09-25 15:17:39:109 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/window/rect 200 65 ms - 48 
+2026-09-25 15:17:39:110 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:39:111 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeButton[@name='auto_sign_in_card']","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:39:111 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:39:111 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:39:111 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:39:112 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:39:112 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:39:181 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:39:182 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:39:182 [d6624184][XCUITestDriver@8148] Waited for 71 ms so far
+2026-09-25 15:17:39:684 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:39:685 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:39:767 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:39:769 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:39:769 [d6624184][XCUITestDriver@8148] Waited for 658 ms so far
+2026-09-25 15:17:40:271 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:40:272 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:40:363 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:40:364 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:40:365 [d6624184][XCUITestDriver@8148] Waited for 1253 ms so far
+2026-09-25 15:17:40:866 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:40:867 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:40:951 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:40:952 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:40:952 [d6624184][XCUITestDriver@8148] Waited for 1841 ms so far
+2026-09-25 15:17:41:455 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:41:456 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:41:541 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:41:542 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:41:543 [d6624184][XCUITestDriver@8148] Waited for 2432 ms so far
+2026-09-25 15:17:42:044 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:42:044 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:42:121 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:42:123 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:42:123 [d6624184][XCUITestDriver@8148] Waited for 3012 ms so far
+2026-09-25 15:17:42:625 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:42:625 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:42:699 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeButton[@name='auto_sign_in_card']'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   li...
+2026-09-25 15:17:42:700 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:17:42:700 [d6624184][XCUITestDriver@8148] Waited for 3589 ms so far
+2026-09-25 15:17:43:209 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:43:209 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:43:858 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-940F-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000"},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:43:859 [d6624184][XCUITestDriver@8148] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000","ELEMENT":"40000000-0000-0000-940F-000000000000"}
+2026-09-25 15:17:43:860 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 200 4750 ms - 137 
+2026-09-25 15:17:43:862 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:43:863 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:43:863 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:43:864 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:43:864 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:43:922 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:43:923 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:43:924 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 200 62 ms - 14 
+2026-09-25 15:17:43:926 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:43:927 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:43:927 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:43:927 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:43:927 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:43:989 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:43:989 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:43:990 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 200 63 ms - 14 
+2026-09-25 15:17:48:998 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:48:999 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeButton[@name='auto_sign_in_card']","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:48:999 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:49:000 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:49:000 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:49:001 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:49:002 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:49:346 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-940F-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000"},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:347 [d6624184][XCUITestDriver@8148] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000","ELEMENT":"40000000-0000-0000-940F-000000000000"}
+2026-09-25 15:17:49:348 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 200 350 ms - 137 
+2026-09-25 15:17:49:350 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:49:351 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:49:351 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:49:351 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:49:351 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:49:431 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:432 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:49:433 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 200 83 ms - 14 
+2026-09-25 15:17:49:435 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:49:436 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:49:436 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:49:436 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:49:436 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:49:518 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:518 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:49:519 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 200 83 ms - 14 
+2026-09-25 15:17:49:521 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:49:522 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeButton[@name='auto_sign_in_card']","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:49:522 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:49:522 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:49:522 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:49:523 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:49:523 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='auto_sign_in_card']"}
+2026-09-25 15:17:49:775 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-940F-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000"},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:776 [d6624184][XCUITestDriver@8148] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-940F-000000000000","ELEMENT":"40000000-0000-0000-940F-000000000000"}
+2026-09-25 15:17:49:777 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 200 255 ms - 137 
+2026-09-25 15:17:49:779 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:49:779 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:49:779 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:49:779 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:49:780 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:49:849 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:850 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:49:851 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/displayed 200 72 ms - 14 
+2026-09-25 15:17:49:853 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/enabled 
+2026-09-25 15:17:49:854 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:49:854 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:49:855 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/enabled' to command name 'elementEnabled'
+2026-09-25 15:17:49:855 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/enabled] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/enabled] with no body
+2026-09-25 15:17:49:922 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:49:923 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:49:924 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/enabled 200 70 ms - 14 
+2026-09-25 15:17:49:926 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/click {}
+2026-09-25 15:17:49:926 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:49:926 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:49:927 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/click' to command name 'click'
+2026-09-25 15:17:49:927 [d6624184][XCUITestDriver@8148] Proxying [POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/click] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/40000000-0000-0000-940F-000000000000/click] with body: {}
+2026-09-25 15:17:50:682 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":null,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:50:682 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:50:684 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/40000000-0000-0000-940F-000000000000/click 200 758 ms - 14 
+2026-09-25 15:17:53:693 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/window/rect 
+2026-09-25 15:17:53:693 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.getWindowRect() with args: ["d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:53:693 [d6624184][XCUITestDriver@8148] Executing command 'getWindowRect'
+2026-09-25 15:17:53:694 [d6624184][XCUITestDriver@8148] Matched '/window/rect' to command name 'getWindowRect'
+2026-09-25 15:17:53:694 [d6624184][XCUITestDriver@8148] Proxying [GET /window/rect] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/window/rect] with no body
+2026-09-25 15:17:53:829 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"y":0,"x":0,"width":390,"height":844},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:53:830 [d6624184][XCUITestDriver@8148] Responding to client with driver.getWindowRect() result: {"y":0,"x":0,"width":390,"height":844}
+2026-09-25 15:17:53:831 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/window/rect 200 138 ms - 48 
+2026-09-25 15:17:53:833 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"class name","value":"XCUIElementTypeTextField"}
+2026-09-25 15:17:53:833 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["class name","XCUIElementTypeTextField","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:53:834 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:53:834 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:53:834 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:53:834 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:53:834 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeTextField"}
+2026-09-25 15:17:53:946 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"ELEMENT":"87000000-0000-0000-940F-000000000000","element-6066-11e4-a52e-4f735466cecf":"87000000-0000-0000-940F-000000000000"},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:53:947 [d6624184][XCUITestDriver@8148] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"87000000-0000-0000-940F-000000000000","ELEMENT":"87000000-0000-0000-940F-000000000000"}
+2026-09-25 15:17:53:948 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 200 115 ms - 137 
+2026-09-25 15:17:53:950 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:53:950 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:53:950 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:53:951 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:53:951 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/87000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:54:014 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:54:014 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:54:015 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/displayed 200 64 ms - 14 
+2026-09-25 15:17:54:016 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/clear {}
+2026-09-25 15:17:54:017 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.clear() with args: ["87000000-0000-0000-940F-000000000000","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:54:017 [d6624184][XCUITestDriver@8148] Executing command 'clear'
+2026-09-25 15:17:54:018 [d6624184][XCUITestDriver@8148] Matched '/element/87000000-0000-0000-940F-000000000000/clear' to command name 'clear'
+2026-09-25 15:17:54:018 [d6624184][XCUITestDriver@8148] Proxying [POST /element/87000000-0000-0000-940F-000000000000/clear] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/87000000-0000-0000-940F-000000000000/clear] with no body
+2026-09-25 15:17:54:068 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":null,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:54:068 [d6624184][XCUITestDriver@8148] Responding to client with driver.clear() result: null
+2026-09-25 15:17:54:069 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/clear 200 53 ms - 14 
+2026-09-25 15:17:54:071 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/value {"text":"thangavel@tuna.group","value":["t","h","a","n","g","a","v","e","l","@","t","u","n","a",".","g","r","o","u","p"]}
+2026-09-25 15:17:54:071 [d6624184][BaseDriver] The following arguments are not known and will be ignored: value
+2026-09-25 15:17:54:071 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.setValue() with args: ["thangavel@tuna.group","87000000-0000-0000-940F-000000000000","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:54:071 [d6624184][XCUITestDriver@8148] Executing command 'setValue'
+2026-09-25 15:17:54:073 [d6624184][XCUITestDriver@8148] Matched '/element/87000000-0000-0000-940F-000000000000/value' to command name 'setValue'
+2026-09-25 15:17:54:073 [d6624184][XCUITestDriver@8148] Added 'text' property to 'setValue' request body
+2026-09-25 15:17:54:073 [d6624184][XCUITestDriver@8148] Proxying [POST /element/87000000-0000-0000-940F-000000000000/value] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/87000000-0000-0000-940F-000000000000/value] with body: {"value":["t","h","a","n","g","a","v","e","l","@","t","u","n","a",".","g","r","o","u","p"],"text":"thangavel@tuna.group"}
+2026-09-25 15:17:56:584 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":null,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:56:585 [d6624184][XCUITestDriver@8148] Responding to client with driver.setValue() result: null
+2026-09-25 15:17:56:587 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/87000000-0000-0000-940F-000000000000/value 200 2515 ms - 14 
+2026-09-25 15:17:56:590 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"accessibility id","value":"auto_ContinueButton"}
+2026-09-25 15:17:56:590 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["accessibility id","auto_ContinueButton","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:56:591 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:56:591 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:56:591 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:56:591 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:56:592 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"accessibility id","value":"auto_ContinueButton"}
+2026-09-25 15:17:57:009 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":{"ELEMENT":"89000000-0000-0000-940F-000000000000","element-6066-11e4-a52e-4f735466cecf":"89000000-0000-0000-940F-000000000000"},"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:57:010 [d6624184][XCUITestDriver@8148] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"89000000-0000-0000-940F-000000000000","ELEMENT":"89000000-0000-0000-940F-000000000000"}
+2026-09-25 15:17:57:011 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 200 421 ms - 137 
+2026-09-25 15:17:57:012 [d6624184][HTTP] --> GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/displayed 
+2026-09-25 15:17:57:013 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:57:013 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:57:013 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/displayed' to command name 'elementDisplayed'
+2026-09-25 15:17:57:014 [d6624184][XCUITestDriver@8148] Proxying [GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/displayed] to [GET http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/89000000-0000-0000-940F-000000000000/displayed] with no body
+2026-09-25 15:17:57:136 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":true,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:57:136 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:57:138 [d6624184][HTTP] <-- GET /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/displayed 200 125 ms - 14 
+2026-09-25 15:17:57:140 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/click {}
+2026-09-25 15:17:57:140 [d6624184][XCUITestDriver@8148] Driver proxy active, passing request on via HTTP proxy
+2026-09-25 15:17:57:140 [d6624184][XCUITestDriver@8148] Executing command 'proxyReqRes'
+2026-09-25 15:17:57:141 [d6624184][XCUITestDriver@8148] Matched '/session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/click' to command name 'click'
+2026-09-25 15:17:57:141 [d6624184][XCUITestDriver@8148] Proxying [POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/click] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element/89000000-0000-0000-940F-000000000000/click] with body: {}
+2026-09-25 15:17:57:927 [d6624184][XCUITestDriver@8148] Got response with status 200: {"value":null,"sessionId":"8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4"}
+2026-09-25 15:17:57:928 [d6624184][XCUITestDriver@8148] Replacing sessionId 8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4 with d6624184-f6ac-4b01-b409-10c30a61a2b4
+2026-09-25 15:17:57:929 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element/89000000-0000-0000-940F-000000000000/click 200 788 ms - 14 
+2026-09-25 15:17:59:937 [d6624184][HTTP] --> POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:17:59:938 [d6624184][XCUITestDriver@8148] Calling AppiumDriver.findElement() with args: ["class name","XCUIElementTypeSecureTextField","d6624184-f6ac-4b01-b409-10c30a61a2b4"]
+2026-09-25 15:17:59:938 [d6624184][XCUITestDriver@8148] Executing command 'findElement'
+2026-09-25 15:17:59:938 [d6624184][XCUITestDriver@8148] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2026-09-25 15:17:59:938 [d6624184][XCUITestDriver@8148] Waiting up to 30000 ms for condition
+2026-09-25 15:17:59:938 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:17:59:939 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:00:021 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:00:022 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:00:022 [d6624184][XCUITestDriver@8148] Waited for 84 ms so far
+2026-09-25 15:18:00:525 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:00:526 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:00:608 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:00:609 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:00:610 [d6624184][XCUITestDriver@8148] Waited for 671 ms so far
+2026-09-25 15:18:01:110 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:01:110 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:01:187 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:01:188 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:01:188 [d6624184][XCUITestDriver@8148] Waited for 1250 ms so far
+2026-09-25 15:18:01:689 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:01:690 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:01:758 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:01:759 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:01:760 [d6624184][XCUITestDriver@8148] Waited for 1822 ms so far
+2026-09-25 15:18:02:261 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:02:261 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:02:328 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:02:328 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:02:328 [d6624184][XCUITestDriver@8148] Waited for 2390 ms so far
+2026-09-25 15:18:02:830 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:02:830 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:02:908 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:02:909 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:02:909 [d6624184][XCUITestDriver@8148] Waited for 2971 ms so far
+2026-09-25 15:18:03:410 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:03:410 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:03:483 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:03:484 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:03:484 [d6624184][XCUITestDriver@8148] Waited for 3546 ms so far
+2026-09-25 15:18:03:984 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:03:985 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:04:060 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:04:062 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:04:062 [d6624184][XCUITestDriver@8148] Waited for 4124 ms so far
+2026-09-25 15:18:04:562 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:04:563 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:04:662 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:04:663 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:04:663 [d6624184][XCUITestDriver@8148] Waited for 4725 ms so far
+2026-09-25 15:18:05:165 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:05:165 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:05:399 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:05:400 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:05:400 [d6624184][XCUITestDriver@8148] Waited for 5462 ms so far
+2026-09-25 15:18:05:901 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:05:901 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:06:008 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:06:009 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:06:009 [d6624184][XCUITestDriver@8148] Waited for 6071 ms so far
+2026-09-25 15:18:06:511 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:06:511 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:06:571 [d6624184][XCUITestDriver@8148] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class name', value 'XCUIElementTypeSecureTextField'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010d637f4c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010d637d70 +[FBFindElementCommands handleFindElement:] + 344\n\t2   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001d2a581e4 49C0CD3E-A696-3B11-BA92-5755F0C3C6E3 + 111076\n\t7   libdispatch.dylib...
+2026-09-25 15:18:06:572 [d6624184][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2026-09-25 15:18:06:572 [d6624184][XCUITestDriver@8148] Waited for 6634 ms so far
+2026-09-25 15:18:07:074 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:07:075 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:07:087 [d6624184][XCUITestDriver@8148] Got response with status 400: {"value":{"error":"invalid element state","message":"The application under test with bundle id 'com.sixflags.ios' is not running, possibly crashed","traceback":"(\n\t0   CoreFoundation                      0x000000019802c2e0 101EB2F1-1915-34A0-8BC9-631D03753B84 + 1135328\n\t1   libobjc.A.dylib                     0x0000000194af9224 objc_exception_throw + 88\n\t2   WebDriverAgentLib                   0x000000010d634cbc -[FBSession activeApplication] + 1228\n\t3   WebDriverAgentLib                   0x000000010d637cd8 +[FBFindElementCommands handleFindElement:] + 192\n\t4   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t5   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t6   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t7   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServe...
+2026-09-25 15:18:07:088 [d6624184][W3C] Matched W3C error code 'invalid element state' to InvalidElementStateError
+2026-09-25 15:18:07:088 [d6624184][XCUITestDriver@8148] Waited for 7150 ms so far
+2026-09-25 15:18:07:590 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:07:590 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:07:717 [d6624184][XCUITestDriver@8148] Got response with status 400: {"value":{"error":"invalid element state","message":"The application under test with bundle id 'com.sixflags.ios' is not running, possibly crashed","traceback":"(\n\t0   CoreFoundation                      0x000000019802c2e0 101EB2F1-1915-34A0-8BC9-631D03753B84 + 1135328\n\t1   libobjc.A.dylib                     0x0000000194af9224 objc_exception_throw + 88\n\t2   WebDriverAgentLib                   0x000000010d634cbc -[FBSession activeApplication] + 1228\n\t3   WebDriverAgentLib                   0x000000010d637cd8 +[FBFindElementCommands handleFindElement:] + 192\n\t4   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t5   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t6   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t7   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServe...
+2026-09-25 15:18:07:718 [d6624184][W3C] Matched W3C error code 'invalid element state' to InvalidElementStateError
+2026-09-25 15:18:07:718 [d6624184][XCUITestDriver@8148] Waited for 7780 ms so far
+2026-09-25 15:18:08:221 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:08:222 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:08:237 [d6624184][XCUITestDriver@8148] Got response with status 400: {"value":{"error":"invalid element state","message":"The application under test with bundle id 'com.sixflags.ios' is not running, possibly crashed","traceback":"(\n\t0   CoreFoundation                      0x000000019802c2e0 101EB2F1-1915-34A0-8BC9-631D03753B84 + 1135328\n\t1   libobjc.A.dylib                     0x0000000194af9224 objc_exception_throw + 88\n\t2   WebDriverAgentLib                   0x000000010d634cbc -[FBSession activeApplication] + 1228\n\t3   WebDriverAgentLib                   0x000000010d637cd8 +[FBFindElementCommands handleFindElement:] + 192\n\t4   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t5   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t6   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t7   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServe...
+2026-09-25 15:18:08:238 [d6624184][W3C] Matched W3C error code 'invalid element state' to InvalidElementStateError
+2026-09-25 15:18:08:238 [d6624184][XCUITestDriver@8148] Waited for 8300 ms so far
+2026-09-25 15:18:08:739 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:08:740 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:08:753 [d6624184][XCUITestDriver@8148] Got response with status 400: {"value":{"error":"invalid element state","message":"The application under test with bundle id 'com.sixflags.ios' is not running, possibly crashed","traceback":"(\n\t0   CoreFoundation                      0x000000019802c2e0 101EB2F1-1915-34A0-8BC9-631D03753B84 + 1135328\n\t1   libobjc.A.dylib                     0x0000000194af9224 objc_exception_throw + 88\n\t2   WebDriverAgentLib                   0x000000010d634cbc -[FBSession activeApplication] + 1228\n\t3   WebDriverAgentLib                   0x000000010d637cd8 +[FBFindElementCommands handleFindElement:] + 192\n\t4   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t5   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t6   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t7   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServe...
+2026-09-25 15:18:08:753 [d6624184][W3C] Matched W3C error code 'invalid element state' to InvalidElementStateError
+2026-09-25 15:18:08:753 [d6624184][XCUITestDriver@8148] Waited for 8815 ms so far
+2026-09-25 15:18:09:255 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:09:256 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:09:272 [d6624184][XCUITestDriver@8148] Got response with status 400: {"value":{"error":"invalid element state","message":"The application under test with bundle id 'com.sixflags.ios' is not running, possibly crashed","traceback":"(\n\t0   CoreFoundation                      0x000000019802c2e0 101EB2F1-1915-34A0-8BC9-631D03753B84 + 1135328\n\t1   libobjc.A.dylib                     0x0000000194af9224 objc_exception_throw + 88\n\t2   WebDriverAgentLib                   0x000000010d634cbc -[FBSession activeApplication] + 1228\n\t3   WebDriverAgentLib                   0x000000010d637cd8 +[FBFindElementCommands handleFindElement:] + 192\n\t4   WebDriverAgentLib                   0x000000010d5f8f18 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t5   WebDriverAgentLib                   0x000000010d5e1db4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t6   WebDriverAgentLib                   0x000000010d61b2e4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t7   WebDriverAgentLib                   0x000000010d61bdd8 __72-[RoutingHTTPServe...
+2026-09-25 15:18:09:273 [d6624184][W3C] Matched W3C error code 'invalid element state' to InvalidElementStateError
+2026-09-25 15:18:09:273 [d6624184][XCUITestDriver@8148] Waited for 9335 ms so far
+2026-09-25 15:18:09:775 [d6624184][XCUITestDriver@8148] Matched '/element' to command name 'findElement'
+2026-09-25 15:18:09:775 [d6624184][XCUITestDriver@8148] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/8E86EDA4-5984-49E4-BDFC-C0A4D4D153F4/element] with body: {"using":"class name","value":"XCUIElementTypeSecureTextField"}
+2026-09-25 15:18:09:968 [Appium] Received SIGINT - shutting down
+2026-09-25 15:18:09:969 [AppiumDriver@0b13] Cleaning up 1 active session
+2026-09-25 15:18:09:970 [AppiumDriver@0b13] Ending session, cause was 'The process has received SIGINT signal'
+2026-09-25 15:18:09:970 [AppiumDriver@0b13] Removing session 'd6624184-f6ac-4b01-b409-10c30a61a2b4' from our master session list
+2026-09-25 15:18:09:970 [DevCon Factory] Releasing connections for 00008110-000854660121401E device on any port number
+2026-09-25 15:18:09:970 [DevCon Factory] Found cached connections to release: ["00008110-000854660121401E:8100","00008110-000854660121401E:9100"]
+2026-09-25 15:18:09:970 [DevCon Factory] Releasing the listener for '00008110-000854660121401E:8100'
+2026-09-25 15:18:09:971 [iProxy@00008110:8100] Closing the connection
+2026-09-25 15:18:09:971 [DevCon Factory] Releasing the listener for '00008110-000854660121401E:9100'
+2026-09-25 15:18:09:971 [iProxy@00008110:9100] Closing the connection
+2026-09-25 15:18:09:971 [DevCon Factory] Cached connections count: 0
+2026-09-25 15:18:09:971 [XCUITestDriver@8148] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2026-09-25 15:18:09:971 [HTTP] Closing Appium HTTP server
+2026-09-25 15:18:09:972 [iProxy@00008110:9100] The connection has been closed
+2026-09-25 15:18:09:978 [d6624184][AppiumDriver@0b13] Encountered internal error running command: Error: The process has received SIGINT signal
+    at /opt/homebrew/lib/node_modules/appium/lib/appium.js:548:49
+    at Array.map (<anonymous>)
+    at AppiumDriver.deleteAllSessions (/opt/homebrew/lib/node_modules/appium/lib/appium.js:547:33)
+    at AppiumDriver.shutdown (/opt/homebrew/lib/node_modules/appium/lib/appium.js:183:16)
+    at process.onSignal (/opt/homebrew/lib/node_modules/appium/lib/main.js:464:28)
+    at Object.onceWrapper (node:events:623:12)
+    at process.emit (node:events:520:22)
+2026-09-25 15:18:09:984 [d6624184][HTTP] <-- POST /session/d6624184-f6ac-4b01-b409-10c30a61a2b4/element 500 10047 ms - 1072 
+2026-09-25 15:18:09:984 [HTTP] Appium HTTP server has been successfully closed after 13ms
