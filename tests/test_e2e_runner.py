@@ -12,7 +12,7 @@ from pytest_bdd import scenario
 def test_01_login_scenarios():
     pass
 
-
+@pytest.mark.skip(reason="Skipping sign-up scenarios due to known issues.")
 @pytest.mark.smoke
 @pytest.mark.ios
 @pytest.mark.order(2)

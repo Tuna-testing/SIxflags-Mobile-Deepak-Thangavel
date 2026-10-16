@@ -1,3 +1,5 @@
+from selenium.webdriver.common import timeouts
+from selenium.webdriver.common import timeouts
 import time
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
@@ -118,3 +120,4 @@ class Gesture:
         start_y = loc['y'] + size['height'] // 2
         end_y = int(start_y - size['height'] * 0.5)
         self.driver.swipe(start_x, start_y, start_x, end_y, 600)
+

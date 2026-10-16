@@ -1,1 +1,6 @@
-run only in Android on UAT env - pytest --platform ios --env uat -n 0
+
+Craete a new .venv = python3 -m venv .venv
+Activate the .venv = source .venv/bin/activate
+Install all the dependences = pip install -r requirements.txt
+
+run only in Android on UAT env = pytest --platform android --env uat -n 0
